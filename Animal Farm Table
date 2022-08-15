@@ -1,0 +1,122 @@
+
+-- -----------------------------------------------------
+--  Create The Table `Farm`
+-- -----------------------------------------------------
+CREATE TABLE `farm`.`Farm` (
+  `Farm_id` INT NOT NULL,
+  `FarmName` VARCHAR(255) NULL,
+  `city` VARCHAR(405) NULL,
+  `province` VARCHAR(405) NULL,
+  `country` VARCHAR(405) NULL,
+  `Farmer_Farmer_id` INT NOT NULL,
+  PRIMARY KEY (`Farm_id`),
+    FOREIGN KEY (`Farmer_Farmer_id`)
+    REFERENCES `farm`.`Farmer` (`Farmer_id`));
+
+-- -----------------------------------
+-- insert into farm table
+-- ----------------------------------
+
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53301', 'Mike Robert', 'St. Stephens Ward', 'Kent', 'United Kingdom', '98001');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53302', 'James Patricia', 'Abbey Ward', 'Buckinghamshire', 'United Kingdom', '98002');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53303', 'Michael', 'East Southbourne and Tuckton W', 'Bournemouth', 'United Kingdom', '98003');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53304', 'Robert Dave', 'Hawerby cum Beesby', 'Lincolnshire', 'United Kingdom', '98004');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53305', 'David Ross', 'Greets Green and Lyng Ward', 'West Midlands', 'United Kingdom', '98005');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53306', 'James Patricia', 'Desborough', 'Northamptonshire', 'United Kingdom', '98006');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53307', 'Michael John', 'Bargate Ward', 'Southampton', 'United Kingdom', '98007');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53308', 'William', 'Chirton Ward', 'Tyne & Wear', 'United Kingdom', '98008');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53309', 'James Patricia', 'Staple Hill Ward', 'South Gloucestershire', 'United Kingdom', '98009');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53310', 'Robert Dave', 'Parwich', 'Derbyshire', 'United Kingdom', '98010');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53311', 'Mary', 'Wilmington', 'Kent', 'United Kingdom', '98011');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53312', 'Jame luck', 'Loundsley Green Ward', 'Derbyshire', 'United Kingdom', '98012');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53313', 'John James', 'Dee Ward', 'Dumfries and Galloway', 'United Kingdom', '98013');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53314', 'David', 'Broxburn, Uphall and Winchburg', 'West Lothian', 'United Kingdom', '98014');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53315', 'Michael Rich', 'Weston-Super-Mare', 'North Somerset', 'United Kingdom', '98015');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53316', 'Maria', 'Carbrooke', 'Norfolk', 'United Kingdom', '98016');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53317', 'Michael Mack', 'New Milton', 'Hampshire', 'United Kingdom', '98017');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53318', 'Michael Soul', 'Parkham', 'Devon', 'United Kingdom', '98018');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53319', 'James Omar', 'Darnall Ward', 'Yorkshire, South', 'United Kingdom', '98019');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53320', 'Maria Hassan', 'Marldon', 'Devon', 'United Kingdom', '98020');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53321', 'Robert Ali', 'Prestatyn Community', 'Denbighshire', 'United Kingdom', '98021');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53322', 'Michael Kamal', 'Lye and Stourbridge North Ward', 'West Midlands', 'United Kingdom', '98022');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53323', 'Robert Sam', 'Warlingham', 'Surrey', 'United Kingdom', '98023');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53324', 'Robert Luck', 'Newport', 'Isle of Wight', 'United Kingdom', '98024');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53325', 'William Look', 'Chichester', 'West Sussex', 'United Kingdom', '98025');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53326', 'James Rich', 'Steornabhagh a Deas Ward', 'Western Isles', 'United Kingdom', '98026');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53327', 'Mary Soul', 'South Ward', 'North Eart Lincolnshire', 'United Kingdom', '98027');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53328', 'Maria Maichel', 'Newquay', 'Cornwall', 'United Kingdom', '98028');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53329', 'Charles Chris', 'Brimpton', 'Berkshire', 'United Kingdom', '98029');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53330', 'David Dan', 'Shard End Ward', 'West Midlands', 'United Kingdom', '98030');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53331', 'Robert Ram', 'Letchworth South West Ward', 'Hertfordshire', 'United Kingdom', '98031');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53332', 'James Jood', 'Longhill Ward', 'Yorkshire, East (North Humbers', 'United Kingdom', '98032');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53333', 'John Judd', 'Franche Ward', 'Hereford and Worcester', 'United Kingdom', '98033');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53334', 'Richard', 'Whittington', 'Shropshire', 'United Kingdom', '98034');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53335', 'David', 'Cockerton West Ward', 'Darlington', 'United Kingdom', '98001');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53336', 'David', 'Castle Ward', 'West Sussex', 'United Kingdom', '98002');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53337', 'Michael', 'Devizes', 'Wiltshire', 'United Kingdom', '98003');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53338', 'William', 'Colnbrook with Poyle', 'Buckinghamshire', 'United Kingdom', '98004');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53339', 'David', 'Aldridge Central and South War', 'West Midlands', 'United Kingdom', '98005');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53340', 'Mary', 'East Putney Ward', 'Greater London', 'United Kingdom', '98006');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53341', 'Jennifer', 'Sawston', 'Cambridgeshire', 'United Kingdom', '98007');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53342', 'William', 'Wakefield North Ward', 'West Yorkshire', 'United Kingdom', '98008');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53343', 'John', 'St. Enoder', 'Cornwall', 'United Kingdom', '98009');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53344', 'John', 'Ryde', 'Isle of Wight', 'United Kingdom', '98010');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53345', 'Daniel', 'Laindon Park Ward', 'Essex', 'United Kingdom', '98011');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53346', 'Thomas', 'Lymington and Pennington', 'Hampshire', 'United Kingdom', '98012');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53347', 'Linda', 'Aylesbury', 'Buckinghamshire', 'United Kingdom', '98013');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53348', 'James', 'Burmantofts and Richmond Hill', 'West Yorkshire', 'United Kingdom', '98014');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53349', 'Robert', 'Howard Town Ward', 'Derbyshire', 'United Kingdom', '98015');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53350', 'Mary', 'Farnham', 'Surrey', 'United Kingdom', '98016');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53351', 'Mary', 'Beeston West Ward', 'Nottinghamshire', 'United Kingdom', '98017');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53352', 'Patricia', 'Wollaton West Ward', 'Nottinghamshire', 'United Kingdom', '98018');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53353', 'James', 'Llangeler Community', 'Ceredigion', 'United Kingdom', '98019');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53354', 'James', 'Brockley Ward', 'Greater London', 'United Kingdom', '98020');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53355', 'William', 'Meads Ward', 'East Sussex', 'United Kingdom', '98021');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53356', 'John', 'Broxburn, Uphall and Winchburg', 'West Lothian', 'United Kingdom', '98022');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53357', 'Charles', 'St. Ive', 'Cornwall', 'United Kingdom', '98023');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53358', 'William', 'Shard End Ward', 'West Midlands', 'United Kingdom', '98024');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53359', 'John', 'Norton Canes', 'Staffordshire', 'United Kingdom', '98025');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53360', 'Richard', 'Bulwell Ward', 'Nottinghamshire', 'United Kingdom', '98026');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53361', 'James', 'Treorchy Community', 'Rhondda Cynon Taff', 'United Kingdom', '98027');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53362', 'Robert', 'Maybury and Sheerwater Ward', 'Surrey', 'United Kingdom', '98028');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53363', 'Barbara', 'Westgate Ward', 'Gloucestershire', 'United Kingdom', '98029');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53364', 'Michael', 'Conisbrough and Denaby Ward', 'South Yorkshire', 'United Kingdom', '98030');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53365', 'James', 'Newbold and Brownsover Ward', 'Warwickshire', 'United Kingdom', '98031');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53366', 'Michael', 'Middlewich', 'Cheshire', 'United Kingdom', '98032');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53367', 'James', 'St. Marys Ward', 'Greater Manchester', 'United Kingdom', '98033');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53368', 'Joseph', 'Gresham Ward', 'Middlesbrough', 'United Kingdom', '98034');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53369', 'James', 'Aldborough Ward', 'Greater London', 'United Kingdom', '98001');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53370', 'Mary', 'Royal Hospital Ward', 'Greater London', 'United Kingdom', '98002');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53371', 'Robert', 'Woodstock Ward', 'South Gloucestershire', 'United Kingdom', '98003');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53372', 'Robert', 'Dunblane and Bridge of Allan W', 'Stirling', 'United Kingdom', '98004');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53373', 'Charles', 'Kempshott Ward', 'Hampshire', 'United Kingdom', '98005');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53374', 'Jennifer', 'City and Hunslet Ward', 'West Yorkshire', 'United Kingdom', '98006');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53375', 'Michael John', 'Ruckinge', 'Kent', 'United Kingdom', '98007');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53376', 'John', 'Abbey Road Ward', 'Greater London', 'United Kingdom', '98008');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53377', 'Michael', 'Prittlewell Ward', 'Essex', 'United Kingdom', '98009');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53378', 'James', 'Kirkby Stephen', 'Cumbria', 'United Kingdom', '98010');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53379', 'Mark', 'Eaton Park Ward', 'Stoke-on-Trent', 'United Kingdom', '98011');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53380', 'Michael', 'Bishop Auckland', 'County Durham', 'United Kingdom', '98012');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53381', 'David', 'Falmouth', 'Cornwall', 'United Kingdom', '98013');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53382', 'Linda', 'Malmesbury', 'Wiltshire', 'United Kingdom', '98014');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53383', 'Elizabeth', 'West End Ward', 'Greater London', 'United Kingdom', '98015');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53384', 'Mary', 'Town Ward', 'Greater London', 'United Kingdom', '98016');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53385', 'James', 'Crompton Ward', 'Greater Manchester', 'United Kingdom', '98017');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53386', 'Michael John', 'Stroud', 'Hampshire', 'United Kingdom', '98018');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53387', 'Charles', 'Overton Ward', 'Lancashire', 'United Kingdom', '98019');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53388', 'Daniel Ryan', 'Midway Ward', 'Derbyshire', 'United Kingdom', '98020');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53389', 'James', 'Washington East Ward', 'Tyne and Wear', 'United Kingdom', '98021');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53390', 'Michael John', 'Walkergate Ward', 'Tyne and Wear', 'United Kingdom', '98022');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53391', 'Daniel', 'Stratfield Mortimer', 'Berkshire', 'United Kingdom', '98023');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53392', 'David', 'Selston', 'Nottinghamshire', 'United Kingdom', '98024');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53393', 'Thomas', 'Govan Ward', 'Glasgow City', 'United Kingdom', '98025');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53394', 'John James', 'Millwall Ward', 'Greater London', 'United Kingdom', '98026');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53395', 'Robert', 'Sefton', 'Merseyside', 'United Kingdom', '98027');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53396', 'John', 'Lancing', 'West Sussex', 'United Kingdom', '98028');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53397', 'Richard', 'St. Gluvias', 'Cornwall', 'United Kingdom', '98029');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53398', 'Charles', 'Hilton', 'Aberdeenshire', 'United Kingdom', '98030');
+INSERT INTO `farm`.`farm` (`Farm_id`, `FarmName`, `city`, `province`, `country`, `Farmer_Farmer_id`) VALUES ('53399', 'Mark Sam', 'Brooklands Ward', 'Greater Manchester', 'United Kingdom', '98031');
+ 
+ 
+ select * from farm.farm;
+ 
