@@ -11,4 +11,4 @@ Network and Server Project Database
 
 ### Plant Database
 
-<img src="https://user-images.githubusercontent.com/81640578/184692288-b94db06f-2da8-4b22-9bfc-48f333a8365c.png" width="800" height="500">
+<img src="https://user-images.githubusercontent.com/81640578/184692288-b94db06f-2da8-4b22-9bfc-48f333a8365c.png" width="600" height="500">
