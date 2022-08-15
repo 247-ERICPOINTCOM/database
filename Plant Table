@@ -1,10 +1,10 @@
+ -- --------------------------------------
+ -- Create table 
+ -- --------------------------------------
 CREATE TABLE `farm`.`plant` (
   `plant_farmID` INT NOT NULL,
   `GardenSize` VARCHAR(450) NULL,
   `Number_of_plantations` VARCHAR(450) NULL,
- -- --------------------------------------
- -- Create table 
- -- --------------------------------------
  `PlantationName` VARCHAR(450) NULL,
   `SoilType` VARCHAR(450) NULL,
   `WateringSchedule` VARCHAR(450) NULL,
