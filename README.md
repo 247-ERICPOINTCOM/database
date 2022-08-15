@@ -6,7 +6,7 @@ Network and Server Project Database
 ### Plant Database
 
 ![image (1)](https://user-images.githubusercontent.com/81640578/184692288-b94db06f-2da8-4b22-9bfc-48f333a8365c.png | width=100)
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/81640578/184692288-b94db06f-2da8-4b22-9bfc-48f333a8365c.png)" width="100" height="100">
+<img src="[[https://your-image-url.type](https://user-images.githubusercontent.com/81640578/184692288-b94db06f-2da8-4b22-9bfc-48f333a8365c.png)]" width="100" height="100">
 
 ### Animal Database
 
