@@ -1,0 +1,9 @@
+CREATE TABLE `farm`.`Plantfarm` (
+  `PlantFarmID` INT NOT NULL,
+  `PlantFarmAddress` VARCHAR(450) NULL,
+  `PlantFarmSize` VARCHAR(450) NULL,
+  PRIMARY KEY (`PlantFarmID`));
+  
+ALTER TABLE Plantfarm
+ADD COLUMN plantfarmCity VARCHAR(450),
+ADD COLUMN plantfarmZipCode VARCHAR(450);
