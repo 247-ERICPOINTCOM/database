@@ -1,0 +1,103 @@
+
+-- -----------------------------------------------------
+-- Create Table `Farmer`
+-- -----------------------------------------------------
+
+CREATE TABLE `farm`.`Farmer` (
+  `Farmer_id` INT NOT NULL,
+  `Fname` VARCHAR(455) NULL,
+  `Femail` VARCHAR(455) NULL,
+  `Fphone` VARCHAR(10) NULL,
+  PRIMARY KEY (`Farmer_id`));
+  
+  
+  
+-- --------------------------------------------------------
+-- Inser Into Farmer 
+-- ---------------------------------------------------------
+
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98001', 'Jonathan Norden', 'JonathanNorden@gmail.com', '(202) 720-2498');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98002', 'Philippa David', 'JoaHuber@gmail.com', '(202) 720-2498');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98003', 'Helen Rich', 'Nathan.Brigmon@gmail.com', '(202) 720-2498');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98004', 'Sarah Mark', 'Shawn.Lincoln@gmail.com', '(301) 851-4102');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98005', 'Jane Emmett', 'Chris.Hernandez@gmail.com', '(301) 851-4102');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98006', 'David Andrew', 'Sarah.Lambert@austinenergy.com', '(301) 851-4102');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98007', 'Richard Jo', 'Christine.Thies@ausps.org', '(202) 690-3318');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98008', 'Helen Ali', 'gus.delgado@gmail.com', '(202)694-1802');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98009', 'Mike Ian', 'Ron.MacKay@ausps.org', '(202)690-0048');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98010', 'Elaine Spark', 'Ron.MacKay@ausps.org', '(202) 720-7163');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98011', 'Jane Emmett', 'Paige.Warner@gmail.com', '(202) 720-5534');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98012', 'Christine John', 'Stefan.Wray@gmail.com', '(202) 720-6788');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98013', 'Elspeth Eric', 'Joe.Faulk@gmail.com', '(703) 605-0773');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98014', 'Gill Noah', 'Bryce.Benton@gmail.com', '(703) 605-0773');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98015', 'Amanda Steven', 'Sarah.Cronin@gmail.com', '(703) 605-0773');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98016', 'Sarah Mark', 'gabriel.gonzalez@gmail.com', '(202) 690-2760');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98017', 'Sally Chris', 'Patricia.Genty-Andrade@gmail.com', '(202) 690-3882');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98018', 'Susan Martin', 'Patti.Edwards@abia.org', '(202) 690-2760');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98019', 'Simon Will', 'Robert.Bizendine@gmail.com', '(202) 720-2936');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98020', 'June Viv', 'Korrie.Johnson@gmail.com', '(202) 720-2937');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98021', 'Louise Dan', 'Korrie.Johnson@gmail.com', '(202) 720-3448');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98022', 'Nick Mike', 'Grace.Kretschmer@gmail.com', '(202) 205-0444');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98023', 'Delia Martin', 'Kathryn.Darnall@gmail.com', '(202) 205-1542');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98024', 'Arnet Mark', 'ashlee.harris@gmail.com', '(202) 205-0444');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98025', 'Philip Ross', 'Ashley.Parsons@gmail.com', '(202) 720-8087');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98026', 'Elaine Spark', 'Ashley.Parsons@gmail.com', '(202) 720-8087');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98027', 'Mo Yusifr', 'Sara.Behunek@gmail.com', '(202) 720-6529');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98028', 'Chris Adam', 'Zachary.Ashburn@gmail.com', '(703) 305-1164');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98029', 'Julie Jack', 'Julia.Robbins@gmail.com', '(703) 305-1164');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98030', 'Sarah Steve', 'Julia.Robbins@gmail.com', '(703) 305-1164');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98031', 'Pauline Chris', 'Melissa.Alvarado@gmail.com', '(504) 426-0300');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98032', 'Dawn Robert', 'David.Andersen@ausps.org', '(504) 426-0300');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98033', 'Ruth Saul', 'Lynn.Cohee@ausps.org', '(504) 426-0374');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98034', 'Catherine Chojnowski', 'Patrick.Murphy@ausps.org', '(202) 590-6168');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98035', 'Elaine Carl', 'Patrick.Murphy@ausps.org', '(202) 690-4985');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98036', 'Jeremy Sam', 'Tyler.Higdon@gmail.com', '(301) 504-1701');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98037', 'Georgina Sma', 'Perry.Perez@gmail.com', '(202) 720-1269');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98038', 'Jill Harlana', 'daniel.honker@gmail.com', '(202) 720-1269');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98039', 'Adam Ryder', 'daniel.honker@gmail.com', '(202) 720-1276');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98040', 'Debbie Dettmar', 'Yanira.Oliveras@gmail.com', '(202) 720-6257');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98041', 'Judith Black', 'John.Walker@gmail.com', '(504) 426-0374');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98042', 'Anthony Steven', 'Gavin.Lambert@gmail.com', '(504) 426-0374');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98043', 'Elizabeth Sual', 'Tomas.Salinas@gmail.com', '(202) 690-3318');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98044', 'David Jackob', 'jim.warren@gmail.com', '(202)694-1802');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98045', 'Jane Emmett', 'Jonathan.Tomko@gmail.com', '(202)720-6355');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98046', 'Kate Ray', 'Josh.Rudow@gmail.com', '(202) 720-5212');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98047', 'Deborah Ray', 'Katy.Zamesnik@gmail.com', '(202) 720-5212');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98048', 'Andrea Riley', 'Jamila.Siller@gmail.com', '(202) 720-5212');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98049', 'Nicholas Samson', 'Kimberly.Olivares@gmail.com', '(202) 720-5565');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98050', 'Anne Steve', 'farah.muscadin@gmail.com', '(202) 720-5565');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98051', 'Neil Noh', 'elizabeth.hargrove@gmail.com', '(202) 720-5565');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98052', 'Rupa Barson', 'Zach.Baumer@gmail.com', '(202) 720-5677');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98053', 'Zoe Adams', 'Patrick.Johnson@gmail.com', '(202) 720-5678');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98054', 'Paula Adams', 'Kristi.Samilpa@gmail.com', '(202) 690-0048');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98055', 'David', 'Jeff.Hayes@ausps.org', '(202) 690-3318');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98056', 'Briony', 'John.Nixon@gmail.com', '(202) 694 1802');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98057', 'Harrison', 'Michael.Strycharske@gmail.com', '(202) 690-0048');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98058', 'Cath', 'samantha.tedford@gmail.com', '(202) 690-3041');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98059', 'Hunter', 'Brian.Long@gmail.com', '(202) 690-3041');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98060', 'Steve', 'Bryan.Thompson@gmail.com', '(202) 260-0080');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98061', 'Wendy', 'Megan.Bell@gmail.com', '(301) 504-1655, (301) 504-1640');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98062', 'Kelly', 'Megan.Bell@gmail.com', '(301) 504-1743');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98063', 'Adam', 'Blender.Hill@gmail.com', '(301) 504-1743');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98064', 'Rosaleen', 'Jesse.Rodriguez@gmail.com', '(202) 692-0004');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98065', 'Sandra', 'John.Speirs@gmail.com', '(202) 692-0015');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98066', 'Jeremy', 'gail.ray@gmail.com', '(202) 692-0032');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98067', 'Claire', 'Robert.Clayton@gmail.com', '(301) 763-2127');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98068', 'Sue', 'Thomas.Montgomery@gmail.com', '(301) 763-2127');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98069', 'Sarah', 'Thomas.Montgomery@gmail.com', '(301) 763-2127');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98070', 'David', 'Angel.flores@gmail.com', '(202) 482-5997');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98071', 'Diane', 'Tyler.Myers@gmail.com', '(202) 482-5997');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98072', 'Kathryn', 'Diana.Martin@gmail.com', '(202) 482-5997');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98073', 'David', 'E-Mail Address', '(202) 482-3085');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98074', 'Arnet', 'Joan.Hamilton-Huber@gmail.com', '(202) 482-3085');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98075', 'Peter', 'Nathan.Brigmon@gmail.com', '(202) 482-3085');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98076', 'Sharon', 'Shawn.Lincoln@gmail.com', '(202) 482-0953');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98077', 'Joanne', 'Chris.Hernandez@gmail.com', '(202) 482-0953');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98078', 'Sheena', 'Sarah.Lambert@austinenergy.com', '(202) 482-0953');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98079', 'Jo', 'Christine.Thies@ausps.org', '(202) 482-7937');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98080', 'Emma', 'gus.delgado@gmail.com', '(202) 482-7937');
+INSERT INTO `farm`.`farmer` (`Farmer_id`, `Fname`, `Femail`, `Fphone`) VALUES ('98081', 'Andy', 'Ron.MacKay@ausps.org', '(202) 482-7937');
+
+
+select * from farmer;
+  
