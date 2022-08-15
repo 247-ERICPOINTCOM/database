@@ -1,0 +1,121 @@
+-- -----------------------------------------------------
+-- Table `farm`.`Caretaker`
+-- -----------------------------------------------------
+CREATE TABLE `farm`.`Caretaker` (
+  `Caretaker_id` INT NOT NULL,
+  `Caretaker_Name` VARCHAR(450) NULL,
+  `Caretaker_Phone` VARCHAR(450) NULL,
+  `Caretaker_Email` VARCHAR(450) NULL,
+  `Farm_Farm_id` INT NOT NULL,
+  PRIMARY KEY (`Caretaker_id`),
+    FOREIGN KEY (`Farm_Farm_id`)
+    REFERENCES `farm`.`Farm` (`Farm_id`));
+ 
+ -- --------------------------------
+ 
+ -- Insert into CareTaker
+ 
+ -- ---------------------------------
+ 
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46001', 'Alexia Meenan', '01560-328739', 'alexia.meenan@meenan.co.uk', '53301');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46002', 'Graham  Stan', '01860-191930', 'gstanwick@gmail.com', '53302');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46003', 'Elinore Riven', '01457-837447', 'elinore.fulda@fulda.co.uk', '53303');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46004', 'Lisbeth Lary', '01931-620849', 'lcreecy@gmail.com', '53304');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46005', 'Eloisa Lois', '01337-695353', 'eloisa.faurote@hotmail.com', '53305');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46006', 'Shawana Frack', '01413-348876', 'shawana@yahoo.com', '53306');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46007', 'Alyssa Mady', '01632-887825', 'alyssa_ansbro@gmail.com', '53307');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46008', 'Kyoko Ray', '01235-173362', 'kyoko_mcmillian@gmail.com', '53308');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46009', 'Terry Say', '01555-550015', 'tgauthier@yahoo.com', '53309');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46010', 'Sena Steve', '01756-678490', 'sena.langenbach@hotmail.com', '53310');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46011', 'Cristen Steven', '01354-864473', 'cnesset@nesset.co.uk', '53311');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46012', 'Lashawn Robert', '01676-780022', 'lashawn.ker@gmail.com', '53312');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46013', 'Wade Weed', '01712-978062', 'wade@hotmail.com', '53313');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46014', 'Whitney Will', '01224-605237', 'whitney@gmail.com', '53314');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46015', 'Deja Roy', '01378-234592', 'deja.conatser@hotmail.com', '53316');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46016', 'Earnestine Stan', '01807-346103', 'earnestine_casper@hotmail.com', '53317');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46017', 'Frankie Rury', '01295-678319', 'fmarruffo@gmail.com', '53318');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46018', 'Paola Frank', '01333-642646', 'pdease@gmail.com', '53319');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46019', 'Rodrigo Lary', '01936-611490', 'rodrigo@hotmail.com', '53320');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46020', 'Luther Souly', '01536-639256', 'luther@gmail.com', '53321');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46021', 'Casey Calven', '01728-100333', 'casey.dondero@hotmail.com', '53322');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46022', 'Ressie Kors', '01996-854517', 'ressie_bontemps@bontemps.co.uk', '53323');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46023', 'Sean Dean', '01773-139510', 'sean.schurman@schurman.co.uk', '53324');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46024', 'Celestina Dooly', '01763-475078', 'cpince@pince.co.uk', '53325');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46025', 'Maira Alfred', '01582-839217', 'maira.karas@yahoo.com', '53326');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46026', 'Beth Beiter', '01210-926114', 'bbarbone@barbone.co.uk', '53327');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46027', 'Wei Woly', '01912-146880', 'wei_nobel@hotmail.com', '53328');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46028', 'Melissia', '01515-360513', 'mslotemaker@gmail.com', '53329');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46029', 'Letha', '01694-424205', 'letha_akey@akey.co.uk', '53330');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46030', 'Isaac', '01939-738818', 'isaac.semrad@semrad.co.uk', '53331');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46031', 'Kristine', '01710-435506', 'kristine.klipfel@yahoo.com', '53332');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46032', 'Odette', '01712-248851', 'odette_moussette@gmail.com', '53333');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46033', 'Hobert', '01245-353227', 'hobert@gmail.com', '53334');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46034', 'Isadora', '01526-145485', 'isadora.mchughes@mchughes.co.uk', '53335');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46035', 'Emily', '01416-913482', 'emily.pogorelc@yahoo.com', '53336');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46036', 'Desire', '01819-701096', 'desire@gmail.com', '53337');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46037', 'Rosalind', '01918-999052', 'rosalind.stamps@stamps.co.uk', '53338');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46038', 'Vernell', '01954-363885', 'vernell@hotmail.com', '53339');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46039', 'Micheline', '01857-518738', 'micheline.mathieson@yahoo.com', '53340');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46040', 'Nathan', '01555-702650', 'nathan.outhouse@gmail.com', '53341');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46041', 'Allene', '01731-825958', 'allene.burau@hotmail.com', '53342');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46042', 'Julie Burau', '01225-180983', 'julie@gmail.com', '53343');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46043', 'Francisca Boob', '01345-878334', 'fshuhi@shuhi.co.uk', '53344');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46044', 'Marisha Crete', '01257-461104', 'marisha.wilcoxon@gmail.com', '53345');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46045', 'Telma Mias', '01500-649863', 'telma@maraia.co.uk', '53346');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46046', 'Luke Mias', '01375-820236', 'luke.crete@crete.co.uk', '53347');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46047', 'Hubert Heart', '01408-965643', 'hubert.mias@gmail.com', '53348');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46048', 'Janella Kiven', '01746-505364', 'jaltobell@hotmail.com', '53349');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46049', 'Angelo Panfilov', '01544-247601', 'angelo.lavista@gmail.com', '53350');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46050', 'Tran Barry', '01609-235350', 'tran.mandiola@hotmail.com', '53351');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46051', 'Reynalda Crtew', '01951-872658', 'reynalda@vanhooser.co.uk', '53352');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46052', 'Salley', '01858-162078', 'salley.rieger@gmail.com', '53353');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46053', 'Cheryll', '01780-380120', 'cheryll_yurich@yurich.co.uk', '53354');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46054', 'Crista', '01976-784016', 'crista@yahoo.com', '53355');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46055', 'Lino', '01316-590173', 'lino.sutulovich@gmail.com', '53316');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46056', 'Galen', '01220-653456', 'galen.wendorf@wendorf.co.uk', '53317');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46057', 'Gilbert', '01455-565046', 'gilbert.langarica@gmail.com', '53318');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46058', 'Whitney', '01255-383731', 'whitney.goossen@hotmail.com', '53319');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46059', 'Socorro', '01311-567052', 'socorro_abrahams@abrahams.co.uk', '53320');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46060', 'Mauricio', '01640-813748', 'mflam@gmail.com', '53321');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46061', 'Phillip', '01490-898175', 'paloi@hotmail.com', '53322');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46062', 'Gilberto', '01582-161403', 'gerixon@gmail.com', '53323');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46063', 'Thad phill', '01506-152661', 'thad_puskarich@puskarich.co.uk', '53324');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46064', 'Bambi Martin', '01676-354943', 'bambi.favaron@yahoo.com', '53325');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46065', 'Marshall', '01913-454226', 'marshall@hotmail.com', '53326');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46066', 'Chery', '01274-659801', 'cwiederin@yahoo.com', '53327');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46067', 'Eileen', '01904-227024', 'eileen@yahoo.com', '53328');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46068', 'Melita', '01431-484822', 'melita.szpak@szpak.co.uk', '53329');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46069', 'Ashley', '01740-739731', 'ashley_jessie@jessie.co.uk', '53330');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46070', 'Laila', '01550-206220', 'lfend@gmail.com', '53331');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46071', 'Bobbie', '01496-781616', 'bguillereault@gmail.com', '53332');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46072', 'Dana', '01847-224345', 'dpaluszynski@paluszynski.co.uk', '53333');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46073', 'Freida', '01773-691786', 'freida_newyear@yahoo.com', '53334');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46074', 'Val', '01387-155607', 'vcellucci@yahoo.com', '53335');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46075', 'Horace', '01924-556297', 'horace.knapp@yahoo.com', '53336');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46076', 'Joana', '01320-402522', 'jreinecke@reinecke.co.uk', '53337');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46077', 'Tiara', '01270-562265', 'tiara_schlichter@schlichter.co.uk', '53338');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46078', 'Dacia', '01984-926059', 'dacia.swaisgood@swaisgood.co.uk', '53339');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46079', 'Myong', '01897-419567', 'mbabineaux@babineaux.co.uk', '53340');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46080', 'Gene', '01257-354396', 'gene_bleile@bleile.co.uk', '53341');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46081', 'Kanisha', '01770-697837', 'kanisha@gmail.com', '53342');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46082', 'Ayesha', '01284-871485', 'ayesha@gmail.com', '53343');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46083', 'Lanie', '01218-415062', 'lanie.smalarz@yahoo.com', '53344');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46084', 'Jaleesa', '01507-519053', 'jpolintan@polintan.co.uk', '53345');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46085', 'Tamekia', '01794-317624', 'tamekia.flotow@hotmail.com', '53346');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46086', 'Ula', '01291-565542', 'ula@hotmail.com', '53347');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46087', 'Rosendo', '01404-343160', 'rratel@yahoo.com', '53348');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46088', 'Timmy', '01651-232745', 'tlintner@hotmail.com', '53349');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46089', 'Zita', '01368-497445', 'zita_speltz@yahoo.com', '53350');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46090', 'Aleisha', '01341-997268', 'aleisha.lemm@gmail.com', '53351');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46091', 'Naomi', '01469-888112', 'naomi.lavezzo@yahoo.com', '53352');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46092', 'Aretha', '01816-462521', 'aretha@hotmail.com', '53353');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46093', 'Mila', '01300-650262', 'mila_figuera@yahoo.com', '53354');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46094', 'Orville', '01998-694754', 'orville_zuehl@zuehl.co.uk', '53355');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46095', 'Gabriele', '01404-425588', 'gabriele@geschke.co.uk', '53361');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46096', 'Kara', '01691-316298', 'kara@yahoo.com', '53362');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46097', 'Kenny', '01753-900033', 'kenny@lin.co.uk', '53363');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46098', 'Vashti', '01311-723137', 'vashti@gmail.com', '53364');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46099', 'Jordan', '01793-443665', 'jordan_handsaker@gmail.com', '53365');
+INSERT INTO `farm`.`caretaker` (`Caretaker_id`, `Caretaker_Name`, `Caretaker_Phone`, `Caretaker_Email`, `Farm_Farm_id`) VALUES ('46100', 'Carisa', '01560-328740', 'carisa.degenhardt@degenhardt.co.uk', '53366');
+
+select * from farm.caretaker;
